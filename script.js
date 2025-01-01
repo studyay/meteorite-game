@@ -19,13 +19,13 @@ let gameOver = false;
 
 // 이미지 로드
 const backgroundImage = new Image();
-backgroundImage.src = '배경.png';
+backgroundImage.src = 'background.png';
 
 const planeImage = new Image();
-planeImage.src = '주인공.png'; // 주인공 이미지 경로
+planeImage.src = 'main.png'; // 주인공 이미지 경로
 
 const obstacleImage = new Image();
-obstacleImage.src = '장애물.png'; // 장애물 이미지 경로
+obstacleImage.src = 'obstacle.png'; // 장애물 이미지 경로
 
 function drawBackground() {
     ctx.drawImage(backgroundImage, 0, 0, canvas.width, canvas.height);
